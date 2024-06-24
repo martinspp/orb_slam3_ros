@@ -15,6 +15,7 @@ RUN apt-get update && \
         cmake \
         libeigen3-dev \
         ros-${ROS_DISTRO}-hector-trajectory-server \
+        libepoxy-dev \
         python3-catkin-tools \
         libopencv-dev && \
     rm -rf /var/lib/apt/lists/* && \
